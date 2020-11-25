@@ -10,11 +10,13 @@
         <CategoryCreate @created="addNewCategory" />
 
         <CategoryEdit 
+          v-if="categories.length"
           :categories="categories"
           :key="categories.length + updateCount"
           @updated="updateCategories"
         />
         
+        <p class="center" v-else>Категорий пока нет</p>
       </div>
     </section>
   </div>
@@ -30,7 +32,7 @@ export default {
     categories: [],
     loading: true,
     updateCount: 0
-  }),
+  }), 
   async mounted() {
     this.categories = await this.$store.dispatch('fetchCategories')
     this.loading = false
