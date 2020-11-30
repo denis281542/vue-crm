@@ -35,7 +35,7 @@
 <script>
 import HistoryTable from '@/components/HistoryTable'
 import PaginationMixin from '@/mixins/pagination.mixin'
-import { Pie } from 'vue-chartjs'
+import { Pie } from 'vue-chartjs' 
 
 
 export default {
