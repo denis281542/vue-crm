@@ -5,7 +5,7 @@
 
       <Navbar @click="isOpen = !isOpen" />
 
-      <Sidebar v-model="isOpen" />
+      <Sidebar v-model="isOpen" :key="locale" />
 
       <main class="app-content" :class="{full: !isOpen}">
         <div class="app-page">
@@ -32,7 +32,7 @@ export default {
   name: 'main-layout',
   data: () => ({
     isOpen: true,
-    loading: true
+    loading: true,
   }),
   async mounted () {
     if (!Object.keys(this.$store.getters.info).length) {
@@ -47,6 +47,9 @@ export default {
   computed: {
     error() {
       return this.$store.getters.error
+    },
+    locale() {
+      return this.$store.getters.info.locale
     }
   },
   watch: {
