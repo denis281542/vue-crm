@@ -7,6 +7,19 @@
   "Menu_History": "History",
   "Menu_Planning": "Planning",
   "Menu_NewRecord": "New Record",
-  "Menu_Categories": "Categories"
-  
+  "Menu_Categories": "Categories",
+  "Categories": "Categories",
+  "CategoryCrate_Create": "Create",
+  "CategoryCreate_Title": "Title",
+  "CategoryCrate_EnterTitle": "Enter name category",
+  "CategoryCrate_Limit": "Limit",
+  "CategoryCrate_EnterMinValue": "Enter min value",
+  "CategoryCrate_ButtonCreate": "Create",
+  "CategoryEdit_Edit": "Edit",
+  "CategoryEdit_SelectCategory": "Select category",
+  "CategoryCrate_UpdateButton": "Update",
+  "NotCategory": "There are no categories",
+  "AddCategory": "Add category",
+  "Income": "Income",  
+  "Spend": "Spend"  
 }

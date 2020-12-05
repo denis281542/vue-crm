@@ -7,5 +7,19 @@
   "Menu_History": "История",
   "Menu_Planning": "Планирование",
   "Menu_NewRecord": "Новая запись",
-  "Menu_Categories": "Категории"
+  "Menu_Categories": "Категории",
+  "Categories": "Категории",
+  "CategoryCrate_Create": "Создать",
+  "CategoryCreate_Title": "Название",
+  "CategoryCrate_EnterTitle": "Введите название категории",
+  "CategoryCrate_Limit": "Лимит",
+  "CategoryCrate_EnterMinValue": "Введите значение",
+  "CategoryCrate_ButtonCreate": "Создать",
+  "CategoryEdit_Edit": "Редактировать",
+  "CategoryEdit_SelectCategory": "Выберите категорию",
+  "CategoryCrate_UpdateButton": "Обновить",
+  "NotCategory": "Категорий пока нет.",
+  "AddCategory": "Добавить категорию",
+  "Income": "Доход",
+  "Spend": "Расход"
 }
