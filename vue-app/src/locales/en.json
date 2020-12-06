@@ -21,5 +21,20 @@
   "NotCategory": "There are no categories",
   "AddCategory": "Add category",
   "Income": "Income",  
-  "Spend": "Spend"  
+  "Spend": "Spend",  
+  "Amount": "Amount",  
+  "Description": "Description",  
+  "EnterDescription": "Enter description",
+  "Planning": "Planning",
+  "of": "of",
+  "RecordHistory": "Record history",
+  "CreateRecord": " Create record",
+  "NoRecords": "No records",
+  "Date": "Date",
+  "Category": "Category",
+  "Type": "Type",
+  "Open": "Open",
+  "PervBtn": "Prev",
+  "NextBtn": "Next"
+
 }

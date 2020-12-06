@@ -53,12 +53,12 @@
             v-model.number="amount"
             :class="{invalid: $v.amount.$dirty && $v.amount.$minValue}"
         >
-        <label for="amount">Сумма</label>
+        <label for="amount">{{'Amount' | localize}}</label>
         <span 
             class="helper-text invalid"
             v-if="$v.amount.$dirty && !$v.amount.minValue"
           >
-            Минимальная значение {{$v.amount.$params.minValue.min}}
+            {{'CategoryCrate_EnterMinValue' | localize}} {{$v.amount.$params.minValue.min}}
           </span>
       </div>
 
@@ -69,17 +69,17 @@
             v-model="description"
             :class="{invalid: $v.description.$dirty && !$v.description.required}"
         >
-        <label for="description">Описание</label>
+        <label for="description">{{'Description' | localize}}</label>
         <span 
           class="helper-text invalid"
           v-if="$v.description.$dirty && !$v.description.required"
         >
-          Введите описание
+          {{'EnterDescription' | localize}}
         </span>
       </div>
 
       <button class="btn waves-effect waves-light" type="submit">
-        Создать
+        {{'CategoryCrate_ButtonCreate' | localize}}
         <i class="material-icons right">send</i>
       </button>
     </form>
@@ -89,6 +89,7 @@
 <script>
 import {required, minValue} from 'vuelidate/lib/validators'
 import {mapGetters} from 'vuex'
+import localizeFilter from '@/filters/localize.filter'
 
 export default {
   name: 'record',

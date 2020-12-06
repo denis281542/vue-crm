@@ -21,5 +21,19 @@
   "NotCategory": "Категорий пока нет.",
   "AddCategory": "Добавить категорию",
   "Income": "Доход",
-  "Spend": "Расход"
+  "Spend": "Расход",
+  "Amount": "Сумма",
+  "Description": "Описание",
+  "EnterDescription": "Введите описание",
+  "Planning": "Планирование",
+  "of": "из",
+  "RecordHistory": "История записей",
+  "CreateRecord": "Создать запись",
+  "NoRecords": "Записей пока нет",
+  "Date": "Дата",
+  "Category": "Категория",
+  "Type": "Тип",
+  "Open": "Открыть",
+  "PervBtn": "Назад",
+  "NextBtn": "Вперед"
 }
