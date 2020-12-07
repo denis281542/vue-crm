@@ -35,5 +35,7 @@
   "Type": "Тип",
   "Open": "Открыть",
   "PervBtn": "Назад",
-  "NextBtn": "Вперед"
+  "NextBtn": "Вперед",
+  "RecordCreateSuccessfy": "Запись успешно создана"
+
 }
