@@ -36,6 +36,9 @@
   "Open": "Открыть",
   "PervBtn": "Назад",
   "NextBtn": "Вперед",
-  "RecordCreateSuccessfy": "Запись успешно создана"
+  "RecordCreateSuccessfy": "Запись успешно создана",
+  "NotEnoughMoney": "Недостаточно средств на счете",
+  "ViewRecord": "Посмотреть запись",
+  "CreateNewRecord": "Создать новую запись"
 
 }

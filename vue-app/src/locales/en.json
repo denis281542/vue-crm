@@ -36,6 +36,9 @@
   "Open": "Open",
   "PervBtn": "Prev",
   "NextBtn": "Next",
-  "RecordCreateSuccessfy": "Record create successfy"
+  "RecordCreateSuccessfy": "Record create successfy",
+  "NotEnoughMoney": "Not enough money",
+  "ViewRecord": "View record",
+  "CreateNewRecord": "Create new record"
 
 }
