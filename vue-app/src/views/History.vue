@@ -38,11 +38,15 @@ import PaginationMixin from '@/mixins/pagination.mixin'
 import { Pie } from 'vue-chartjs' 
 import localizeFilter from '@/filters/localize.filter'
 
-
 export default {
   name: 'history',
   extends: Pie,
   mixins: [PaginationMixin],
+  metaInfo() {
+    return {
+      title: this.$title('Menu_History')
+    }
+  },
   data: () => ({
     loading: true,
     records: []

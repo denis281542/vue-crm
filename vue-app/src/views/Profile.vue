@@ -44,7 +44,7 @@ import localizeFilter from '@/filters/localize.filter'
 export default {
   metaInfo() {
     return {
-      title: localizeFilter('ProfileTitle')
+      title: this.$title('ProfileTitle')
     }
   },
   data: () => ({

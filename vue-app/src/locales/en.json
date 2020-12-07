@@ -39,6 +39,11 @@
   "RecordCreateSuccessfy": "Record create successfy",
   "NotEnoughMoney": "Not enough money",
   "ViewRecord": "View record",
-  "CreateNewRecord": "Create new record"
+  "CreateNewRecord": "Create new record",
+  "Login": "Login",
+  "Home": "Home",
+  "Detail": "Detail",
+  "Register": "Register"
+
 
 }
