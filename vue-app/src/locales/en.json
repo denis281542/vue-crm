@@ -45,5 +45,6 @@
   "Detail": "Detail",
   "Register": "Register",
   "Record": "Record",
-  "LoginSistem": "Sign in sistem"
+  "LoginSistem": "Sign in sistem",
+  "LogoutSistem": "You are logged out"
 }
