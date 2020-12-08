@@ -1,11 +1,13 @@
+import localizeFilter from '@/filters/localize.filter'
+
 export default {
   install (Vue, options) {
     Vue.prototype.$message = function (html) {
-      window.M.toast({ html })
+      M.toast({ html })
     }
 
     Vue.prototype.$error = function (html) {
-      window.M.toast({ html: `[Ошибка]: ${html}` })
+      M.toast({ html: `[Ошибка]: ${html}` })
     }
   }
 }

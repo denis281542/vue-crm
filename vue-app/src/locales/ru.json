@@ -39,6 +39,12 @@
   "RecordCreateSuccessfy": "Запись успешно создана",
   "NotEnoughMoney": "Недостаточно средств на счете",
   "ViewRecord": "Посмотреть запись",
-  "CreateNewRecord": "Создать новую запись"
+  "CreateNewRecord": "Создать новую запись",
+  "Login": "Логин",
+  "Home": "Главная",
+  "Detail": "Детально",
+  "Register": "Регистрация",
+  "Record": "Запись",
+  "LoginSistem": "Для начала войдите в систему"
 
 }
